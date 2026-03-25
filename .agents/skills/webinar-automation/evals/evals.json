@@ -1,0 +1,8 @@
+[
+  {
+    "id": "tc1_b2b_sales_webinar_init",
+    "prompt": "Tạo tao dự án webinar về chốt sale B2B tuần tới. Tao chỉ có 1 file bối cảnh chung chung về nỗi đau là khách hay bùng kèo demo.",
+    "expected_output": "Agent tạo được 4 file markdown gốc (Context_Eval, Conversation_Log, Master_Checklist, Quality_Gate) và liệt kê tối thiểu 3 options về Quà tặng Lead Magnet chống bùng kèo demo. Không tạo nhầm file Transcript.",
+    "files": []
+  }
+]

@@ -1,4 +1,4 @@
-# Kiến Trúc Cốt Lõi Của AI Agent — Khung KWSR
+# CXXXXXKiến Trúc Cốt Lõi Của AI Agent — Khung KWSR
 
 *Tài liệu chuyên sâu dành cho Ngày 3: Thiết Kế & Lắp Ráp Agent — Khóa Masterclass HR-AI.*
 *Nguồn: SGK Antigravity Full v2, Chương 2.4 & Chương 3.*
@@ -21,7 +21,6 @@ Kiến trúc này được gọi là **Khung KWSR** — bốn trụ cột tạo 
 Bốn trụ cột này không hoạt động riêng lẻ mà được kết nối theo một **Mô hình Tiến hóa** — lộ trình phát triển từ Agent "biết ít" đến Agent "chuyên gia đáng tin cậy".
 
 Trong các phần tiếp theo, chúng ta sẽ đi sâu vào từng trụ cột.
-
 
 # Bóc Tách Khái Niệm Lõi: Workflow, Skill và Rule
 
@@ -76,4 +75,3 @@ Trong khi Skill cung cấp kiến thức rộng và công cụ thực thi, **Rul
 ---
 
 > **Tóm lược Antigravity:** Người dùng gọi một Workflow. Workflow sẽ chỉ định tuần tự các hành động. Tại mỗi hành động, Agent sẽ tra cứu các Skill liên quan để biết cách làm, và tuân thủ các Rules bên trong Skill đó để không đi chệch đường ray.
->

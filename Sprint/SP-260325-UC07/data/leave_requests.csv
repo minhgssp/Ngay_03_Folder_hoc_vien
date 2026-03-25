@@ -1,0 +1,6 @@
+LeaveID,EmpID,LeaveDate,LeaveType,ApprovalStatus,Reason
+L001,EMP003,2026-03-03,Annual Leave,Approved,Nghỉ phép năm đi du lịch
+L002,EMP004,2026-03-02,Sick Leave,Approved,Sốt cao xin nghỉ
+L003,EMP004,2026-03-03,Sick Leave,Approved,Sốt cao xin nghỉ ngày 2
+L004,EMP005,2026-03-04,Unpaid Leave,Pending,Nghỉ việc riêng không lương
+L005,EMP001,2026-03-05,Annual Leave,Approved,Nghỉ phép năm
