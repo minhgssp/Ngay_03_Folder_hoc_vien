@@ -1,0 +1,52 @@
+# BUSINESS CONTEXT & WEBINAR STRATEGY BRIEF
+*Dự án: Chuỗi Webinar "B2B Growth Engine 2026"*
+
+## 1. Bối cảnh Doanh nghiệp (Company Background)
+- **Tên công ty:** YCOMPASS (Dịch vụ Tư vấn và Giải pháp Chuyển đổi số mảng Sales & Nhân sự B2B).
+- **Sản phẩm cốt lõi (Core Offerings):** 
+  - Gói tư vấn chiến lược AI "AI-Ready Assessment" (Dịch vụ High-ticket).
+  - Nền tảng "Y-Sales AI Orchestrator" giúp tự động hóa khâu Prospecting và Nurturing.
+- **Hiện trạng Kinh doanh:** Doanh thu năm 2025 đạt mốc kỳ vọng, nhưng chi phí thu hút khách hàng (CAC) qua kênh quảng cáo đang tăng 40% do cạnh tranh khốc liệt. Chu kỳ ra quyết định mua hàng (Sales Cycle) trung bình kéo dài từ 3-6 tháng, đặc biệt tỷ lệ rớt khách từ khâu Demo đến lúc gửi Proposal lên tới 60%.
+- **Mệnh lệnh từ Ban Giám đốc:** Cắt giảm sự phụ thuộc vào Performance Ads, dịch chuyển mạnh sang Inbound Marketing. Chuỗi Webinar định kỳ hàng tháng sẽ là "Mũi nhọn" để giáo dục thị trường và thu thập Lead chất lượng (MQL - Marketing Qualified Leads) với chi phí tối ưu nhất.
+
+## 2. Đối tượng Mục tiêu (Target Audience Personas)
+*Lưu ý: Sự kiện KHÔNG dành cho Fresher hay Junior. Kịch bản phải nhắm thẳng vào cấp Quản trị.*
+- **Persona 1: B2B Sales Manager / Giám đốc Kinh doanh cấp trung**
+  - *Nỗi đau (Pain points):* Đội ngũ sale cạn kiệt năng lượng vì vướng vào "Cold Call" có tỷ lệ chốt thấp. Lead đổ về từ team Marketing bị sale chê là "rác", không có nhu cầu thực tế. Quản lý mất kiểm soát chất lượng follow-up do nhân viên làm thủ công, tuỳ hứng.
+  - *Job-to-be-Done (JTBD):* Cần một hệ thống phân loại khách hàng thông minh và kịch bản follow-up tự động để Sale chỉ tập trung công sức vào những người đang sẵn sàng mua (Ready-to-buy).
+- **Persona 2: CEO / Founder của các doanh nghiệp SME/Tech**
+  - *Nỗi đau:* Nghe nói về từ khóa "AI" rát tai nhưng sợ mua phải công nghệ rởm (trend ảo). Không biết áp dụng vào quy trình thực tiễn thế nào để sinh ra tiền mặt ngay lập tức. Đội ngũ nhân viên bảo thủ, ngại học tool mới.
+  - *JTBD:* Tìm kiếm một Case Study thực tế, có "vết xước" thật, có số liệu chứng minh ROI rõ ràng để tự tin ra quyết định đầu tư công cụ hoặc thuê đội tư vấn.
+
+## 3. Mục tiêu & Chỉ số đo lường (OKRs - Kỳ Webinar Tháng 3/2026)
+- **Mục tiêu (Objective):** Thiết lập vị thế Chuyên gia số 1 (Thought Leadership) về AI B2B Sales và "Siết lại" phễu khách hàng.
+- **Key Results (Chỉ tiêu cụ thể):**
+  - Đạt 500 lượt đăng ký (Registrants) qua Landing Page trước 2 ngày diễn ra sự kiện.
+  - Tỷ lệ tham dự thực tế (Attendance rate) đạt tối thiểu 40% (Khoảng 200 người online cùng lúc).
+  - Chuyển đổi ít nhất 30 MQLs (Khách hàng tự động điền form "Nhận tư vấn 1-1" sau giờ).
+  - Chốt tối thiểu 3 Hợp đồng Dịch vụ (SQLs) trị giá >100tr VND trong vòng 30 ngày sau sự kiện.
+
+## 4. Insight & Hướng tiếp cận Chủ đề (Content Angle)
+- **Chủ đề chính thức:** "Bẻ khóa B2B Sales Cycle: Tối ưu hóa phễu bán hàng bằng Trí tuệ Nhân tạo"
+- **Key Insight (Góc nhìn cốt lõi):** Giám đốc cứ ép KPI chốt sale, nhưng lại để nhân viên gửi những email follow-up "copy-paste" sáo rỗng. B2B không mua phần mềm, họ mua "Sự thấu hiểu doanh nghiệp của họ". AI chính là công cụ để mô phỏng sự thấu hiểu đó cho hàng ngàn khách hàng cùng lúc với chi phí tính bằng millicents.
+- **Thời lượng:** 60 phút (Thứ Năm, 14:00 - 15:00).
+- **Cấu trúc sự kiện:** 
+  - 10 phút: Khởi động, Khảo sát & Nêu "Nỗi Đau" thị trường.
+  - 30 phút: Trình diễn (Masterclass) 3 điểm chạm AI trong Sales (Lead Scoring, Personalized Email, Meeting Prep).
+  - 20 phút: Thực chiến Demo 1-1 trên thông tin doanh nghiệp khán giả & Trả lời Q&A hóc búa.
+
+## 5. Diễn giả (Speakers)
+- **Host (MC):** Vũ Lan Anh (Trưởng phòng PR & Events, YCOMPASS). Giọng điệu chuyên nghiệp, khả năng kiểm soát nhịp độ ráo riết, giỏi kích động tương tác và điều phối câu hỏi Q&A.
+- **Speaker (Chuyên gia gốc):** Lê Huy Hoàng (CEO, YCOMPASS). Phong cách nói chuyện: Trực diện, từ chối sáo rỗng, thích dùng số liệu (data-driven), luôn lật ngược vấn đề và luôn mang theo Case Study thực chứng.
+
+## 6. Chiến lược Truyền thông & Kênh phân phối (Promo Channels)
+- **Giai đoạn T-14 (Trước 2 tuần):** Gửi Email Teaser cá nhân hoá cho Database 10,000 khách hàng cũ.
+- **Giai đoạn T-7:** Lên Landing Page sự kiện, chạy Ads Retargeting (Ngân sách: 5 triệu VNĐ) nhắm thẳng vào tập cookie những người từng nán lại trang Bảng Giá (Pricing) trên website.
+- **Giai đoạn T-3:** Post bài mồi trên LinkedIn cá nhân của CEO Hoàng (Organic reach) tạo tranh luận về "Dead Sales". Đẩy bài recap ngắn vào các Group B2B Connect.
+- **Giai đoạn "Day of Event":** Chuỗi 3 SMS nhắc nhở tự động (Sáng sớm, Trước 1 tiếng, và Trực tiếp link Zoom rớt xuống khi sự kiện bắt đầu).
+
+## 7. Khâu Hậu sự kiện (Post-Webinar Strategy)
+- *Lưu ý quan trọng:* Không chỉ nói xong rồi bỏ rèm. Yêu cầu AI xử lý Transcript ghi âm của buổi Webinar để tự động tạo ra:
+  - 1 Bài viết tổng hợp Insight dài 2000 chữ cho Blog tối ưu SEO.
+  - 5 Bài trích dẫn ngắn gọn (Snippet content) bóc tách insight cho LinkedIn.
+  - 1 Chuỗi Email nuôi dưỡng (3 bước) khác biệt hoàn toàn: Tệp Attendees nhận tóm tắt Q&A và link Booking, còn tệp No-shows (Vắng mặt) nhận bản thu âm (VOD) kèm lời kêu gọi.
