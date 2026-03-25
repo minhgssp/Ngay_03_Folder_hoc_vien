@@ -41,4 +41,91 @@ Hệ thống cung cấp một môi trường tương tác cấp cao, kết hợp
 - **Lễ Bế Mạc & Đóng Gói (Closure Protocol):** Kết thúc mỗi Use Case, học viên BẮT BUỘC phải thực hiện Nghi thức Bế mạc (Viết Report, Lesson Learned) và Trích xuất System Prompt thành "Năng lực Bỏ túi" tái sử dụng suốt vòng đời sự nghiệp.
 
 ---
+
+## 🧰 4. NÂNG CẤP AI AGENT: CÀI ĐẶT SKILL & WORKFLOW VÀO WORKSPACE
+
+> Ngày 3 không chỉ dừng ở việc **sử dụng** AI, mà còn dạy bạn cách **dạy lại AI**. Phần này hướng dẫn bạn cài đặt bộ công cụ `Skill Packaging` và Workflow `/buildskill` để biến tri thức cá nhân thành "Năng lực bỏ túi" cho AI Agent tái sử dụng mãi mãi.
+
+### 📚 4.1. Đọc hiểu tài liệu nền tảng (KWSR Modules)
+
+Trước khi cài đặt, hãy đọc **tuần tự** các tài liệu trong thư mục `KWSR_Modules/` để nắm vững hệ sinh thái:
+
+| Thứ tự | File | Nội dung cốt lõi |
+| :---: | :--- | :--- |
+| 1 | `00_Mo_dau.md` | Tổng quan Framework KWSR (Knowledge – Workflow – Skill – Rule) |
+| 2 | `03_Skill.md` | Hiểu Skill là gì, vai trò trong hệ sinh thái Agent |
+| 3 | `02_Workflow.md` | Hiểu Workflow là gì, cách nó điều phối Skill |
+| 4 | **`S-66_skill-packaging/SKILL.md`** | ⭐ Tài liệu lõi — Quy trình đóng gói Skill chuẩn Antigravity |
+| 5 | **`W-56_buildskill.md`** | ⭐ Workflow vận hành — 4 mode: BUILD, OPTIMIZE_TRIGGER, EVALUATE, OPTIMIZE_INSTRUCTION |
+
+> [!IMPORTANT]
+> Hai file đánh dấu ⭐ là **tài liệu thực chiến**. Đọc kỹ chúng trước khi cài đặt.
+
+### 🔧 4.2. Cài đặt Skill `skill-packaging` vào workspace
+
+**Skill** là file hướng dẫn mà AI Agent tự động đọc khi nhận diện bạn đang cần chuyên môn đó. Để cài đặt:
+
+**Bước 1 — Xác định thư mục Skills trong workspace:**
+
+Workspace AI Agent của bạn cần có cấu trúc thư mục `.agents/skills/` (hoặc `.agent/skills/`). Nếu chưa có, tạo mới:
+
+```
+Workspace_cua_ban/
+└── .agents/
+    ├── skills/          ← Nơi chứa các Skill
+    └── workflows/       ← Nơi chứa các Workflow
+```
+
+**Bước 2 — Copy toàn bộ thư mục Skill:**
+
+Copy thư mục `S-66_skill-packaging/skill-packaging/` vào đường dẫn `.agents/skills/` trong workspace của bạn:
+
+```
+.agents/skills/
+└── skill-packaging/
+    └── SKILL.md         ← File lõi, AI Agent tự nhận diện và đọc
+```
+
+> [!TIP]
+> Bạn có thể nhờ AI Agent thực hiện việc này bằng prompt:
+> *"Hãy copy thư mục `KWSR_Modules/S-66_skill-packaging/skill-packaging/` vào `.agents/skills/` trong workspace của tôi."*
+
+**Bước 3 — Xác nhận cài đặt:**
+
+Hỏi AI Agent: *"Liệt kê tất cả skills hiện có trong workspace."* — Agent sẽ quét thư mục `.agents/skills/` và liệt kê `skill-packaging` nếu cài đặt thành công.
+
+### ⚡ 4.3. Cài đặt Workflow `/buildskill` vào workspace
+
+**Workflow** là quy trình từng bước mà AI Agent tuân theo khi bạn gọi lệnh slash (VD: `/buildskill`). Để cài đặt:
+
+**Bước 1 — Copy file Workflow:**
+
+Copy file `W-56_buildskill.md` vào thư mục `.agents/workflows/` trong workspace:
+
+```
+.agents/workflows/
+└── buildskill.md        ← Đổi tên bỏ prefix "W-56_" cho gọn
+```
+
+> [!NOTE]
+> Tên file workflow (không tính `.md`) chính là tên lệnh slash. File `buildskill.md` → lệnh `/buildskill`.
+
+**Bước 2 — Xác nhận cài đặt:**
+
+Gõ `/buildskill` trong chat với AI Agent. Nếu Agent nhận diện và mô tả được 4 modes (BUILD, OPTIMIZE_TRIGGER, EVALUATE, OPTIMIZE_INSTRUCTION) thì cài đặt thành công.
+
+### 🎮 4.4. Sử dụng: Đóng gói Skill đầu tiên của bạn
+
+Sau khi cài đặt xong, hãy thử quy trình đóng gói Skill đầu tiên:
+
+1. **Khởi tạo:** Gọi `/buildskill BUILD` → Agent sẽ hỏi bạn về chuyên môn cần đóng gói rồi tạo thư mục và file `SKILL.md` chuẩn.
+2. **Tối ưu Trigger:** Gọi `/buildskill OPTIMIZE_TRIGGER` → Agent thiết kế bộ test để đảm bảo Skill được kích hoạt đúng lúc.
+3. **Đánh giá:** Gọi `/buildskill EVALUATE` → Agent so sánh chất lượng có Skill vs. không có Skill.
+4. **Tinh chỉnh:** Gọi `/buildskill OPTIMIZE_INSTRUCTION` → Agent phân tích kết quả đánh giá và cải thiện nội dung Skill.
+
+> [!CAUTION]
+> Đừng bỏ qua bước EVALUATE. Một Skill chưa qua kiểm định có thể khiến AI Agent hoạt động kém hơn so với không dùng Skill.
+
+---
+
 *Chúc các Anh / Chị học viên Masterclass chinh phục thành công Năng lực Quản trị Cấp cao bằng Trí Tuệ Nhân Tạo!*
